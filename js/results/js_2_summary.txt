@@ -1,0 +1,10 @@
+js_2a    118 models  PASS 118      325 s
+js_2b    120 models  PASS 120      464 s
+js_2c    121 models  PASS 121      521 s
+js_2d    121 models  PASS 121      427 s
+all      480 models (480 distinct)  PASS 480     1737 s
+     194.2 s  Hydrology/SCANLON.inp
+     165.1 s  EPA/attenuation_KW_High_CE.inp
+     129.8 s  EPA/72_H&H_Elements(2).inp
+      91.2 s  Hydrology/sewer_rdii_problem.inp
+      69.9 s  Hydrology/17_Sub_90_Link_USA_Units.inp

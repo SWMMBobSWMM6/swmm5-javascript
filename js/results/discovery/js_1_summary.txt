@@ -1,0 +1,8 @@
+js_1a    118 models  PASS 118      327 s
+js_1b    120 models  PASS 120      490 s
+all      238 models (238 distinct)  PASS 238      817 s
+     198.2 s  Hydrology/SCANLON.inp
+     129.3 s  EPA/72_H&H_Elements(2).inp
+      65.4 s  Hydrology/17_Sub_90_Link_USA_Units.inp
+      41.8 s  EPA/small_wwf_dwf.inp
+      31.5 s  EPA/HRSDtest_cim_7.inp

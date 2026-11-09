@@ -1,0 +1,6 @@
+identical: ts/src/glibm.ts
+identical: java/src/swmm5/Glibm.java
+identical: go/glibm/glibm.go
+identical: kotlin/src/swmm5/Glibm.kt
+identical: js/swmm5/glibm.js
+identical: js/swmm5/glibm_rt.js (copy of tools/libm/glibm_rt.js)

@@ -1,0 +1,13 @@
+{
+  "name": "swmm5-javascript",
+  "version": "5.2.4",
+  "description": "EPA SWMM 5.2.4 translated to plain JavaScript (CommonJS) and checked byte for byte against EPA",
+  "private": true,
+  "type": "commonjs",
+  "main": "runswmm.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test:libm": "test/run_libm_tests.sh",
+    "test:crt": "test/run_crtcheck.sh"
+  }
+}

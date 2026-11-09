@@ -1,0 +1,2 @@
+start Sun Nov  8 16:48:29 EST 2026  engine /home/claude/swmm5-ports/js/runswmm_saves.sh  ids /home/claude/swmm5-ports/js/gate/ids_q2.txt
+end   Sun Nov  8 17:01:51 EST 2026  rc 0

@@ -1,0 +1,3 @@
+engine: 36297 lines of function bodies from the first function on; 0 differ between engine.ts (regenerated) and engine.js
+math: 4896 lines of translated glibc routines; 0 differ between ts/src/glibm.ts and js/swmm5/glibm.js
+math tables: 25 in each, identical: True

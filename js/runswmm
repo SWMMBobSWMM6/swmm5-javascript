@@ -1,0 +1,4 @@
+#!/bin/sh
+# runswmm - the JavaScript port's command line: node runs js/runswmm.js (plain JavaScript, no build step).
+#   js/runswmm model.inp model.rpt [model.out]
+exec node "$(dirname "$0")/runswmm.js" "$@"

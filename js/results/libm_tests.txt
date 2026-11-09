@@ -1,0 +1,49 @@
+exp 1000016
+log 1000016
+log10 1000016
+pow 1000272
+sin 1000016
+cos 1000016
+tan 1000016
+asin 1000016
+acos 1000016
+atan 1000016
+fma 1000256
+exp 300000
+log 200000
+log10 300000
+pow 700000
+sin 300000
+cos 300000
+tan 300000
+asin 300000
+acos 300000
+atan 300000
+== random arguments over SWMM's ranges (1000000 per function)
+exp    0 of 1000016 differ, 0 NaN sign   (0.499 us/call)
+log    0 of 1000016 differ, 0 NaN sign   (0.368 us/call)
+log10  0 of 1000016 differ, 0 NaN sign   (0.446 us/call)
+pow    0 of 1000272 differ, 0 NaN sign   (0.769 us/call)
+sin    0 of 1000016 differ, 0 NaN sign   (0.501 us/call)
+cos    0 of 1000016 differ, 0 NaN sign   (0.501 us/call)
+tan    0 of 1000016 differ, 0 NaN sign   (0.454 us/call)
+asin   0 of 1000016 differ, 0 NaN sign   (0.359 us/call)
+acos   0 of 1000016 differ, 0 NaN sign   (0.390 us/call)
+atan   0 of 1000016 differ, 0 NaN sign   (0.348 us/call)
+fma    0 of 1000256 differ, 0 NaN sign   (0.113 us/call)
+all: 0 of 11000672 differ
+== edge cases
+exp    0 of 300000 differ, 0 NaN sign   (0.393 us/call)
+log    0 of 200000 differ, 0 NaN sign   (0.510 us/call)
+log10  0 of 300000 differ, 0 NaN sign   (0.487 us/call)
+pow    0 of 700000 differ, 0 NaN sign   (1.064 us/call)
+sin    0 of 300000 differ, 0 NaN sign   (0.793 us/call)
+cos    0 of 300000 differ, 0 NaN sign   (0.807 us/call)
+tan    0 of 300000 differ, 0 NaN sign   (1.020 us/call)
+asin   0 of 300000 differ, 0 NaN sign   (0.570 us/call)
+acos   0 of 300000 differ, 0 NaN sign   (0.497 us/call)
+atan   0 of 300000 differ, 0 NaN sign   (0.303 us/call)
+all: 0 of 3300000 differ
+== pow fast path against pow_exact
+pow vs pow_exact: 0 of 20000000 differ, 0 NaN sign
+exit 0
